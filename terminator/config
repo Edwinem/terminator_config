@@ -1,0 +1,24 @@
+[global_config]
+  title_transmit_bg_color = "#ffdf00"
+[keybindings]
+  hide_window = <Shift>F12
+  reset = <Primary><Shift>y
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      profile = default
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    background_color = "#3f3f3f"
+    background_image = None
+    cursor_color = "#ffffff"
+    foreground_color = "#ffffff"
+    palette = "#555753:#ff0000:#5c8f37:#c4a000:#265aa2:#ce5c00:#038e82:#e5e5e5:#e2c938:#ff7272:#79d52d:#edd400:#6f9fcf:#f57900:#55aa7f:#d3d7cf"
+    scrollback_infinite = True
+    show_titlebar = False
